@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Isaac's ice cubes</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/ice_32x32.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/buy.css">
+</head>
+
+<body>
+    <!--Top of page-->
+    <div class="hero_image">
+        <a href="home.html"><img class="center_image" src="../images/IIC_text.png" alt="Isaac's ice cubes"></a>
+
+    <ul class="navigation_bar">
+        <li><a href="home.html">Home</a></li>
+        <li><a class="active" href="buy.html">Buy</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+
+    <div class="text_background_buy">
+        <br>
+        <h1 class="text_center">Buy some ice!</h1>
+        <p class="text_center">Do you need ice? We can deliver it to you!</p>
+        <p class="text_center">Just enter the information below and press buy.</p>
+        <br><br>
+        <div class="buy_div">
+            <label for="size">Select size of your ice bag.</label>
+            <br>
+            <select id="size">
+                <option value="small">Small 5 lbs</option>
+                <option value="medium">Medium 7 lbs</option>
+                <option value="big">Big 16 lbs</option>
+            </select>
+        
+            <p>Enter your address.</p>
+            <input id="address_input" type="text">
+            <br><br>
+            <button id="buy_button" class="buy_button" type="button" onclick="buy_ice()">Buy!</button>
+            <script src="../java/buy_ice.js"></script>
+            <p id="message"></p>
+        </div>
+        <br>
+        <p class="text_center">Your ice will arrive in 1-2 business days.</p>
+        <br>
+    </div>
+
+    <footer>
+        <b><p>Isaac's ice cubes</p>
+        <p>Contakt us at ice@gmail.com</p></b>
+    </footer>
+</body>

@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+html {
+  background-image: url(../images/background_ice.jpg);
+  background-attachment: fixed;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Hero image*/
+.hero_image {
+  background-image: url(../images/3_ice_cubes.png);
+  background-size: 9cm;
+  height: 5cm;
+}
+
+.hero_image img {
+  height: 5cm;
+}
+
+/*Navigation bar*/
+.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+  
+.navigation_bar li {
+  float: left;
+  margin-right: 10px;
+}
+
+.navigation_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: #333;
+  border-style: solid none;
+  border-color: #333;
+}
+
+.navigation_bar li a:hover {
+  background-color: #111;
+  border-style: solid none;
+  border-color: #111;
+}
+.navigation_bar li .active {
+    color: lightblue;
+    border-style: solid none;
+    border-color: #333 #333 lightblue #333;
+}
+
+.navigation_bar li:hover .active {
+  color: lightblue;
+  border-style: solid none;
+  border-color: #111 #111 lightblue #111;;
+  background-color: #111;
+}
+
+/**/
+/*classes*/
+/**/
+.center_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.text_background_horisontal {
+  background-color: lightblue;
+  padding: 10px;
+  border-style: solid none;
+  border-color: skyblue;
+  margin-bottom: 1cm;
+}
+
+.text_background_vertical {
+  background-color: aquamarine;
+  padding: 10px;
+  border-style: none solid;
+  border-color: skyblue;
+  margin-bottom: 1cm;
+}
+/**/
+/**/
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+footer p {
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+.buy_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.buy_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 15vw;
+    background-color: aqua;
+}
+
+.buy_button:hover {
+    background-color: aquamarine;
+}
+
+.text_background_buy {
+    justify-content: center;
+
+    min-width: 300px;
+    margin: 0 10vw;
+    background-color: lightblue;
+    border-style: none solid;
+    border-color: skyblue;
+}
